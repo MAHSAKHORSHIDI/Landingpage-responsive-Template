@@ -1,0 +1,56 @@
+/* start contact section styles*/
+.container-fluid-custom{
+    background-color: palevioletred;
+    color:azure;
+    height: 60px;
+  }
+  
+  .container-fluid-custom .contact i{
+    color: rgb(62 83 200);
+    vertical-align: -18px;
+    
+  }
+  
+  .container-fluid-custom .contact i span{
+  
+    color:aliceblue;
+    font-size: 12px;
+    padding: 5px;
+    margin: 5px;
+    
+  }
+  .container-fluid-custom .container .social-media-custom{
+  
+    direction: ltr;
+  
+  }
+  
+  .container-fluid-custom .container .social-media-custom a{
+  
+   background-color: rgb(62 83 200);
+    color: aliceblue;
+    width: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px #888888;
+    padding:5px;
+    vertical-align: -18px;
+    margin-right: 10px;
+    
+  
+  }
+  
+  .container-fluid-custom .container .social-media-custom a:hover{
+  
+    background-color: rgb(110, 123, 199);
+     color: aliceblue;
+     width: 5px;
+     border-radius: 5px;
+     box-shadow: 1px 1px #888888;
+     padding:5px;
+     vertical-align: -18px;
+    
+   }
+  .container-fluid-custom .container .social-media-custom i{
+    margin: 5px;
+    color: aliceblue;
+  }

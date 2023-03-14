@@ -1,0 +1,117 @@
+.footer-section-wrapper{
+    background-color: palevioletred;
+    min-height: 300px;
+}
+.footer-section-wrapper .copywriter{
+    color: #ffff;
+    text-align: left;
+    padding-top: 15px;
+    font-size: 15px;
+
+}
+.footer-section-wrapper .desc{
+    color:#ffff;
+}
+.footer-section-wrapper .desc a{
+    color: #ffff;
+    font-size: 23px;
+}
+
+.footer-section-wrapper .desc a i{
+font-size: 31px;
+color: #ffff;
+padding: 13px;
+transform: rotate(-20deg);
+
+}
+
+
+
+.footer-section-wrapper .desc p{
+    font-size: 15px;
+    text-align: center;
+    line-height: 31px;
+}
+
+.footer-section-wrapper .service, .contact-us{
+    color: #ffff;
+    
+}
+
+.footer-section-wrapper .service h6, .contact-us h6{
+    font-size: 23px;
+    padding: 21px 0 0 0;
+    border-bottom: 1px solid #ffff;
+}
+.footer-section-wrapper .service ul{
+    padding-top: 10px;
+}
+.footer-section-wrapper .service ul li{
+    padding: 10px 0 10px 0;
+    
+
+}
+
+.footer-section-wrapper .service ul li a {  
+    color: #ffff;
+    transition: .5s ease-in;
+
+}
+.footer-section-wrapper .service ul li a:hover{
+  
+    color:rgb(183, 150, 168);
+    padding-right: 10px;
+
+}
+
+.footer-section-wrapper .service ul li::before{
+content: "\2771";
+padding-left: 10px;
+
+
+}
+.footer-section-wrapper .contact-us ul{
+    direction: ltr;
+    text-align: center;
+    padding-top: 15px;
+}
+.footer-section-wrapper .contact-us ul a{
+    color: #ffff;
+    padding-right: 15px;
+    transition: 1s ease-in;
+}
+.footer-section-wrapper .contact-us ul a:hover{
+    color: rgb(182, 122, 172);
+  
+}
+
+.footer-section-wrapper .contact-us ul a i{
+    font-size: 30px;
+}
+.footer-section-wrapper .contact-us ul a i:hover{
+    font-size: 40px;
+}
+
+
+.footer-section-wrapper .contact-us form{
+    margin-top: 65px;
+}
+.footer-section-wrapper .contact-us form input[type=text]{
+    height: 38px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+
+}
+
+.footer-section-wrapper .contact-us form input[type=submit]{
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 38px;
+   background-color: rgb(244, 195, 209);
+   cursor: pointer;
+   font-size: 20px;
+ 
+}

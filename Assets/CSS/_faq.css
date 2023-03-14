@@ -1,0 +1,92 @@
+.faq-section-bg{
+    background-image: url('../img/bg.png');
+    min-height: 400px;
+}
+
+.faq-section-wrapper .faq-right-side{
+    box-shadow: inset 0px 0px 11px 0px #090808;
+    background-color: #ffff;
+    padding: 20px;
+    margin: 50px;
+}
+.faq-section-wrapper .faq-right-side h6{
+    font-size: 16px;
+    padding: 20px;
+}
+.faq-section-wrapper .faq-right-side h6 i{
+    font-size: 16px;
+    color:rgb(208 152 197);
+    
+}
+.faq-section-wrapper .faq-right-side p{
+
+    font-size: 14px;
+    margin-right: 48px;
+    color: #666363;
+
+}
+
+.faq-section-wrapper .faq-left-side .tabs{
+    box-shadow: inset 0px 0px 11px 0px #090808;
+      
+    overflow: hidden;
+    margin-top: 53px;
+
+}
+
+.faq-section-wrapper .faq-left-side .tab{
+    overflow: hidden;
+    color: rgb(54, 71, 85);
+   
+   
+}
+
+.faq-section-wrapper .faq-left-side .tab-lable{
+
+   cursor: pointer;
+   width: 100%;
+   font-size: 18px;
+   padding:5px;
+   border-radius: 3px 5px 3px 5px; 
+   display: block;
+   background-color: #c6a0d8;
+    
+
+
+}
+.faq-section-wrapper .faq-left-side .tab-lable:hover{
+    
+    background-color: #d563c3;
+   
+ }
+
+ /* نمایش سیمبل برای نمایش اکوردین*/
+
+ .faq-section-wrapper .faq-left-side .tab-lable::after{
+    
+    content: '\276F';
+     text-align: cenetr;
+   transition: .4s;
+   float: left;
+ }
+ .faq-section-wrapper .faq-left-side input:checked + .tab-lable::after{
+    transform: rotate(-90deg);
+ }
+
+ .faq-section-wrapper .faq-left-side .tab-content{
+    max-height:0;
+   overflow-y: scroll;
+    padding-right: 20px;
+    transition: 1s ease-in;
+
+ }
+
+ .faq-section-wrapper .faq-left-side input:checked ~ .tab-content{
+
+   min-height: 100px;
+
+ }
+
+ .faq-section-wrapper .faq-left-side input{
+    display: none;
+ }

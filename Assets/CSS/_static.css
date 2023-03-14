@@ -1,0 +1,19 @@
+.stat-section-wrapper{
+    background-color: palevioletred;
+    height: auto;
+
+}
+.stat-section-wrapper img{
+
+    margin-top: 40px;
+}
+.stat-section-wrapper .count{
+    color: #ffff;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.stat-section-wrapper .count-title{
+    margin-top: 20px;
+
+}

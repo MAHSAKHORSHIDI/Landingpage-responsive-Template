@@ -1,0 +1,35 @@
+/* start header section styles*/
+.img-header{
+height: 80vh;
+}
+
+.overlay{
+    width:100%;
+    background-color: rgba( 0, 0, 0, 0.5);
+    height: 80vh;
+
+}
+.header-title{
+
+    color: aliceblue;
+    margin: 15%;
+    max-width: 300px;
+ 
+}
+.header-title a{
+    background-color: lightpink;
+    border-radius: 10px;
+    padding: 13px 17px;
+    float: left;
+    margin-top: 20px;
+}
+@media screen and (max-width:1200px){
+    .overlay,.img-header{
+        height: 100%;
+}
+}
+@media screen and (max-width:660px){
+    .overlay{
+    font-size: 14px;
+}
+}

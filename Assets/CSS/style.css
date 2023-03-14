@@ -1,0 +1,18 @@
+@import '_contact.css';
+@import '_Navbar.css';
+@import'_header.css';
+@import'_Course.css';
+@import'_aboutus.css';
+@import '_teacherSection.css';
+@import '_static.css';
+@import '_topic.css';
+@import '_faq.css';
+@import '_footer.css';
+@font-face {
+  font-family: Vazir-Medium;
+  src: url(../fonts/Vazir-Medium.eot) format("eot"),
+    url(../fonts/Vazir-Medium.woff) format("woff"),
+    url(../fonts/Vazir-Medium.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}

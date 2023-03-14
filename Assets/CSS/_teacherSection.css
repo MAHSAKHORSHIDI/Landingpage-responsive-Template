@@ -1,0 +1,53 @@
+.teacher-section-wrapper{
+   background-color:rgb(223, 223, 223);
+   border: 1px solid rgb(205, 205, 205);
+}
+
+
+.teacher-intro{
+
+    background-color: #ffff;
+    top: 80%;
+    left: 50%;
+    width:80%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    box-shadow: inset 0px 0px 11px 0px #090808;
+    border-radius: 5px;
+    margin: 100px 0 50px;
+    z-index: 9999;
+
+}
+.teacher-intro h5 span{
+    background-color: #f5bbebed;
+}
+
+.teacher-intro h5{
+    margin: 30px 0 20px;
+}
+
+
+.teacher-intro a{
+
+border: 1px solid #f5bbebed;
+display: inline-block;
+padding: 0 50px;
+transition: 2s ease-in;
+border-radius: 10px 10px;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 10px ;
+
+}
+
+.teacher-intro a:hover{
+    background-color: darkgray;
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width:700px) {
+    
+    .teacher-intro{
+
+        top:60%;
+    }
+}
